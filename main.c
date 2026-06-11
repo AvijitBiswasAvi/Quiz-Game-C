@@ -39,6 +39,8 @@ int main() {
                 {"Winterfell", "Kings Landing", "Miklagard", "Land of Dawn"},
                 {"Aegon Targeriyan", "Takejo", "Dr. stone", "Dark King"}
             };
+
+            int answers[5] = {0, 1, 2, 2, 1};
             break;
         
         default:
