@@ -15,6 +15,26 @@ int main() {
 
         printf("Enter your choice = ");
         scanf("%d", &choice);
+
+        switch (choice)
+        {
+        case 1:
+            int score;
+            int user_answer;
+
+            char questions[5][100] =
+            {
+                "Who's the the captain of the Straw-Hats(one piece) ?",
+                "How much Senku was sure of ?",
+                "What was captain Levi ?",
+                "Where was Snake from ?",
+                "What was Musashi's ture name ?",
+            };
+            break;
+        
+        default:
+            break;
+        }
   
     } while (choice != 3);
     
