@@ -41,6 +41,8 @@ int main() {
             };
 
             int answers[5] = {0, 1, 2, 2, 1};
+
+            
             break;
         
         default:
