@@ -28,7 +28,16 @@ int main() {
                 "How much Senku was sure of ?",
                 "What was captain Levi ?",
                 "Where was Snake from ?",
-                "What was Musashi's ture name ?",
+                "What was Musashi's ture name ?"
+            };
+
+            char options [5][4][50] = 
+            {
+                {"Monkey D. Luffy", "Zoro", "Nami", "Sanji"},
+                {"5 billion", "10 billion", "15 billion", "20 billion"},
+                {"Yeager", "Blutooth", "Ackerman","Macron"},
+                {"Winterfell", "Kings Landing", "Miklagard", "Land of Dawn"},
+                {"Aegon Targeriyan", "Takejo", "Dr. stone", "Dark King"}
             };
             break;
         
