@@ -49,9 +49,9 @@ int main() {
                 printf("\n%s\n",questions[i]);
 
                 printf("\nA. %s\n", options[i][0]);
-                printf("\nB. %s\n", options[i][1]);
-                printf("\nC. %s\n", options[i][2]);
-                printf("\nD. %s\n", options[i][3]);
+                printf("B. %s\n", options[i][1]);
+                printf("C. %s\n", options[i][2]);
+                printf("D. %s\n", options[i][3]);
 
                 printf("Enter your answer(A/B/C/D) = ");
                 scanf(" %c", &user_answer);
@@ -63,7 +63,7 @@ int main() {
                 }  
             }
             printf("\n==================\n");
-            printf("    Your score = %d\n", score);
+            printf("    Your score = %d/5\n", score);
             printf("====================\n");
             break;
         }
