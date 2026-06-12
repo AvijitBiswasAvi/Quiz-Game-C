@@ -42,6 +42,18 @@ int main() {
 
             int answers[5] = {0, 1, 2, 2, 1};
 
+            for (int i = 0; i < 5; i++)
+            {
+                printf("%s\n",questions[i]);
+
+                printf("\n%s", options[i][0]);
+                printf("\n%s", options[i][1]);
+                printf("\n%s", options[i][2]);
+                printf("\n%s", options[i][3]);
+                printf("\n%s", options[i][4]);
+
+                
+            }
             
             break;
         
