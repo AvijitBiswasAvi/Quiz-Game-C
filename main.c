@@ -40,7 +40,7 @@ int main() {
                 {"Aegon Targeriyan", "Takejo", "Dr. stone", "Dark King"}
             };
 
-            int answers[5] = {0, 1, 2, 2, 1};
+            char answers[5] = {'A', 'B', 'C', 'C', 'B'};
 
             for (int i = 0; i < 5; i++)
             {
@@ -52,7 +52,7 @@ int main() {
                 printf("\n%s", options[i][3]);
                 printf("\n%s", options[i][4]);
 
-                
+
             }
             
             break;
