@@ -20,7 +20,7 @@ int main() {
         {
         case 1:
             int score;
-            int user_answer;
+            char user_answer;
 
             char questions[5][100] =
             {
@@ -44,15 +44,20 @@ int main() {
 
             for (int i = 0; i < 5; i++)
             {
-                printf("%s\n",questions[i]);
+                printf("\n%s\n",questions[i]);
 
-                printf("\n%s", options[i][0]);
-                printf("\n%s", options[i][1]);
-                printf("\n%s", options[i][2]);
-                printf("\n%s", options[i][3]);
-                printf("\n%s", options[i][4]);
+                printf("\nA. %s\n", options[i][0]);
+                printf("\nB. %s\n", options[i][1]);
+                printf("\nC. %s\n", options[i][2]);
+                printf("\nD. %s\n", options[i][3]);
 
+                printf("Enter your answer(A/B/C/D) = ");
+                scanf(" %c", &user_answer);
 
+                if (user_answer == answers)
+                {
+                    score++;
+                }  
             }
             
             break;
