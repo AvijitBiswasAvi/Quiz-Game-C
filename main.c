@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 int main() {
     int choice;
@@ -19,7 +20,8 @@ int main() {
         switch (choice)
         {
         case 1:
-            int score;
+        {
+            int score = 0;
             char user_answer;
 
             char questions[5][100] =
@@ -53,15 +55,18 @@ int main() {
 
                 printf("Enter your answer(A/B/C/D) = ");
                 scanf(" %c", &user_answer);
+                user_answer = toupper(user_answer);
 
-                if (user_answer == answers)
+                if (user_answer == answers[i])
                 {
                     score++;
                 }  
             }
-            
+            printf("\n==================\n");
+            printf("    Your score = %d\n", score);
+            printf("====================\n");
             break;
-        
+        }
         default:
             break;
         }
