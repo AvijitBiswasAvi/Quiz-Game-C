@@ -62,9 +62,9 @@ int main() {
                     score++;
                 }  
             }
-            printf("\n==================\n");
+            printf("\n========================\n");
             printf("    Your score = %d/5\n", score);
-            printf("====================\n");
+            printf("==========================\n");
             break;
         }
         default:
