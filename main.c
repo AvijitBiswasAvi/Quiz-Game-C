@@ -63,7 +63,7 @@ int main()
             }
             printf("\n========================\n");
             printf("    Your score = %d/5\n", score);
-            printf("==========================\n");
+            printf("========================\n");
             break;
         }
         case 2:
@@ -79,14 +79,17 @@ int main()
             printf("=======================================\n");
             break;
         }
-        default: 
+        default:
         {
             printf("----Invalid Choice----");
         }
-            break;
+        break;
         }
 
     } while (choice != 3);
+    printf("\n========================\n");
+    printf("    TNX for playing \n");
+    printf("========================\n");
 
     return 0;
 }
