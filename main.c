@@ -31,7 +31,7 @@ int main()
                     "How much Senku was sure of ?",
                     "What was captain Levi ?",
                     "Where was Snake from ?",
-                    "What was Musashi's ture name ?"};
+                    "What was Musashi's true name ?"};
 
             char options[5][4][50] =
                 {
