@@ -79,17 +79,19 @@ int main()
             printf("=======================================\n");
             break;
         }
+        case 3:
+            printf("\n========================\n");
+            printf("    TNX for playing \n");
+            printf("========================\n");
+            break;
+
         default:
-        {
+
             printf("----Invalid Choice----");
-        }
-        break;
+            break;
         }
 
     } while (choice != 3);
-    printf("\n========================\n");
-    printf("    TNX for playing \n");
-    printf("========================\n");
 
     return 0;
 }
