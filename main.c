@@ -87,7 +87,8 @@ int main()
 
         default:
 
-            printf("----Invalid Choice----");
+            printf("\n----Invalid Choice----");
+            printf("\n");
             break;
         }
 
