@@ -79,7 +79,10 @@ int main()
             printf("=======================================\n");
             break;
         }
-        default:
+        default: 
+        {
+            printf("----Invalid Choice----");
+        }
             break;
         }
 
