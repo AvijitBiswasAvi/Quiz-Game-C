@@ -64,3 +64,5 @@ Your score = 4/5
 ## Author
 
 Created as a beginner C programming project to practice arrays, loops, functions, and program design.
+
+
